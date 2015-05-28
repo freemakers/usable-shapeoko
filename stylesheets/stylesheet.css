@@ -18,7 +18,8 @@ Theme Styles
 
 body {
   color:#373737;
-  background: #212121;
+  /*background: #212121;*/
+  background: #fff;
   font-size: 18px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -87,7 +88,7 @@ footer a {
 
 header a,
 #navlinks a {
-  color: #fff;
+  color: #373737;
 }
 
 em {
@@ -245,7 +246,7 @@ Full-Width Styles
 
 .headerlink.inactive:hover, 
 .headerlink.active {
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
 }
 
 .headerlink.active {
@@ -254,7 +255,7 @@ Full-Width Styles
 
 .headerlink a:hover {
   text-decoration: none;
-  background: #f2f2f2;
+  background: #e2e2e2;
 }
 
 #forkme_banner {
@@ -273,7 +274,8 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  /*background: #212121;*/
+  background: #fff;
 }
 
 #header_wrap .inner {
@@ -282,14 +284,14 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #373737;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #373737;
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
@@ -354,9 +356,11 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #e2e2e2;
+  /*
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  */
 }
 
 #main_content {
