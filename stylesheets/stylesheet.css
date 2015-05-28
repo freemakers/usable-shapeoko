@@ -291,7 +291,7 @@ Full-Width Styles
 }
 
 #project_tagline {
-  color: #373737;
+  color: #878787;
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
@@ -299,7 +299,7 @@ Full-Width Styles
   padding: 0px;
   margin: 0px;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #bbb 0px 0px 10px;
 }
 
 #pagetitle_wrap {
