@@ -10,6 +10,16 @@ title: "Homing and Limit Switches"
   * unusable space near the ends where belt tensioners mount
   * needs a mounting plate
 
+### Selections
+
+Hardware / Parts:
+
+* [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+
+Prints:
+
+* [Baneslayer limit switch holder](http://www.thingiverse.com/thing:804706)
+
 ### Potential Materials
 
 * [Post-assembly T-slot nuts](https://www.inventables.com/technologies/post-assembly-t-slot-nuts) for makerslide
