@@ -12,20 +12,24 @@ title: "Homing and Limit Switches"
 
 ### Selections
 
-Hardware / Parts:
+These are the parts / prints / etc. we're going to try to use. This may change over time if things don't work out.
+
+#### Hardware / Parts:
 
 * [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
-Prints:
+#### Prints:
 
 * [Baneslayer limit switch holder](http://www.thingiverse.com/thing:804706)
 
-### Potential Materials
+### Potential Solutions
+
+#### Materials
 
 * [Post-assembly T-slot nuts](https://www.inventables.com/technologies/post-assembly-t-slot-nuts) for makerslide
 * [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
-### Potential Prints
+#### Prints
 
 These might work as mounting plates:
 
