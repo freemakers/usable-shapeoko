@@ -7,10 +7,10 @@ defaults:
       layout: "slate"
       author: "John Casey"
 
-siteTitle: "The Shop @LCfE"
+siteTitle: "The Shop"
 siteUrl: "http://freemakers.github.io/"
 projectTitle: ""
-tagline: "Collaboration Spaces and Help for LCfE Members"
+tagline: "Collaboration Spaces and Help for FreeMakers"
 owner: "John Casey"
 ownerEmail: jdcasey@commonjava.org
 
