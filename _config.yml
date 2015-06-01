@@ -9,7 +9,7 @@ defaults:
 
 siteTitle: "The Shop"
 siteUrl: "http://freemakers.github.io/"
-projectTitle: ""
+projectTitle: "Usable Shapeoko"
 tagline: "Collaboration Spaces and Help for FreeMakers"
 owner: "John Casey"
 ownerEmail: jdcasey@commonjava.org
