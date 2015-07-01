@@ -22,10 +22,15 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
 [![Custom Limit Switch Bracket](cad/limit-switch-brackets.png)](cad/limit-switch-brackets.stl)
 
 * [Custom limit switch bracket (SCAD)](cad/limit-switch-brackets.scad) [(STL)](cad/limit-switch-brackets.stl) - created by John and Zack
-  * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
-  * 15mm screw is a little too tall for mounting the bracket onto the motor plate
-     * using two M3 2.4mm thick nuts as spacers here works beautifully
-  * No nuts required for fastening to the bracket; M3 machine screw will cut its own threads through the material
+  * Bracket sleeves between Makerslide and motor panel
+  * Machine screws attach to low side of bracket through slot in motor panel side
+  * High side of bracket sits flush with side of motor panel
+  * **Overall dimensions:** 32mm x 28mm x 3.25mm (low side) / 7.6mm (high side)
+  * Notes:
+	 * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
+  	 * 15mm screw is a little too tall for mounting the bracket onto the motor plate
+        * using two M3 2.4mm thick nuts as spacers here works beautifully
+     * No nuts are required for fastening to the bracket; M3 machine screw will cut its own threads through the material
 
 #### Limit/Homing Switches
 
@@ -33,6 +38,7 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
 
 * [Cheap rocker switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
   * M3 machine screws fit the mounting holes perfectly, but leftover 15mm screws from Shapeoko 2 build are slightly too short.
+  * Switch body is 10mm thick.
 
 ### Potential Solutions for Z Axis
 
