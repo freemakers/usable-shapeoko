@@ -22,8 +22,8 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
 * [Custom limit switch bracket (SCAD)](cad/limit-switch-brackets.scad) [(STL)](cad/limit-switch-brackets.stl) - created by John and Zack
   * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
   * 15mm screw is a little too tall for mounting the bracket onto the motor plate
-    * using two M3 2.4mm thick nuts as spacers here works beautifully
-  * no nuts required for fastening; M3 machine screw will cut its own threads through the bracket material
+     * using two M3 2.4mm thick nuts as spacers here works beautifully
+  * No nuts required for fastening to the bracket; M3 machine screw will cut its own threads through the material
 
 [![Cheap Rocker Switches](images/rocker-switches.jpg)](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
