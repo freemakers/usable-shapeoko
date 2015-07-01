@@ -17,7 +17,8 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
 
 ### Selections / Solutions
 
-* [Custom limit switch bracket (SCAD)](cad/limit-switch-brackets.scad) [(STL)](cad/limit-switch-brackets.stl) - created by John and Zack
+* ![Custom Limit Switch Bracket](cad/limit-switch-brackets.png)
+  * [Custom limit switch bracket (SCAD)](cad/limit-switch-brackets.scad) [(STL)](cad/limit-switch-brackets.stl) - created by John and Zack
   * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
   * 15mm screw is a little too tall for mounting the bracket onto the motor plate
     * using two M3 2.4mm thick nuts as spacers here works beautifully
