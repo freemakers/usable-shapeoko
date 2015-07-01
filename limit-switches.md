@@ -25,7 +25,7 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
     * using two M3 2.4mm thick nuts as spacers here works beautifully
   * no nuts required for fastening; M3 machine screw will cut its own threads through the bracket material
 
-![Cheap Rocker Switches](http://ecx.images-amazon.com/images/I/61whPrw4xpL._SL1100_.jpg)
+![Cheap Rocker Switches](images/rocker-switches.jpg)
 
 * [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
   * M3 machine screws fit the mounting holes perfectly, but leftover 15mm screws from Shapeoko 2 build are slightly too short.
