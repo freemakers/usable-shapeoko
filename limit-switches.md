@@ -2,47 +2,38 @@
 title: "Homing and Limit Switches"
 ---
 
+### Overview
+
+Homing switches should make it possible to find 0,0 coordinate in the X-Y plane without manual orientation. Limit switches should provide feedback when the machine tries to move beyond the safe limits of its axes (which could damage the machine). In all cases, these should be binary on/off switches with as little bounce or travel between on and off as possible. The ubiquitous rocker switch seems like a reasonable, if not incredibly precise, place to start this work. The benefit of rocker switches is that nearly anything that will work with a rocker switch will also work with some other kind of switch (except the details of the brackets).
+
 ### Notes
 
 * cheap rocker switches should do the trick
   * not clear what accuracy they provide though
-* makerslide provides a natural choice for mounting switches
-  * unusable space near the ends where belt tensioners mount
-  * needs a mounting plate
+* Motor plates are a good place to mount switches for X and Y
+  * Wiring from here should be simple, since it can follow existing paths
+  * Needs a mounting bracket that fits into the slot on the side of the plate
+  * Bracket can be cut for threading by the machine screw if printed (the material is soft enough)...no nut required
 
-### Selections
+### Selections / Solutions
 
-These are the parts / prints / etc. we're going to try to use. This may change over time if things don't work out.
-
-#### Hardware / Parts:
-
+* [Custom limit switch bracket (SCAD)](cad/limit-switch-bracket.scad) [(STL)]()(cad/limit-switch-bracket.stl) - created by John and Zack
+  * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
+  * 15mm screw is a little too tall for mounting the bracket onto the motor plate
+    * using two M3 2.4mm thick nuts as spacers here works beautifully
+  * no nuts required for fastening; M3 machine screw will cut its own threads through the bracket material
 * [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+  * M3 machine screws fit the mounting holes perfectly, but leftover 15mm screws from Shapeoko 2 build are slightly too short.
 
-#### Prints:
-
-* [Baneslayer limit switch holder](http://www.thingiverse.com/thing:804706)
-
-### Potential Solutions
+### Potential Solutions for Z Axis
 
 #### Materials
 
 * [Post-assembly T-slot nuts](https://www.inventables.com/technologies/post-assembly-t-slot-nuts) for makerslide
-* [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
 #### Prints
 
-These might work as mounting plates:
-
-* [X-axis, by Scott216](https://www.thingiverse.com/thing:328379)
 * [Rear-mounted, right-angle bracket](https://www.thingiverse.com/thing:408063)
-* [Another X-axis mount, by zorlack](http://www.thingiverse.com/thing:257089)
-  * linked to instructions on wiring it up in grbl
-* [Simpler X-axis, by Tronn](http://www.thingiverse.com/thing:503552)
-* [Mounts to axis plates, could be more universal](http://www.thingiverse.com/thing:804706)
-* [Another plate-mounted switch](http://www.thingiverse.com/thing:617617)
-  * claims mounting to plates makes wire management easier
-* [And another plate-mount design](http://www.thingiverse.com/thing:630962)
-  * comes with BOM for mounting hardware
 
 ### Wiring / Configuration Instructions
 
