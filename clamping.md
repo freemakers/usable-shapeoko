@@ -16,7 +16,7 @@ Our goal here is to provide a set of tools for holding down a piece of work as t
 
 #### Clamp Designs
 
-* [2-Bolt Slotted Clamp](cad/2-bolt-slotted-clamp.scad) [(STL)]()(cad/2-bolt-slotted-clamp.stl) - created by John
+* [2-Bolt Slotted Clamp](cad/2-bolt-slotted-clamp.scad) [(STL)](cad/2-bolt-slotted-clamp.stl) - created by John
   * Designed for 1/4"-20 hardware
   * Upside-down carriage bolt as a lever point / spacer
   * Hex head bolt for tightening
