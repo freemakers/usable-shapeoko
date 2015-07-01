@@ -7,7 +7,7 @@ defaults:
       layout: "slate"
       author: "John Casey"
 
-siteTitle: "The Shop"
+siteTitle: "FreeMakers"
 siteUrl: "http://freemakers.github.io/"
 projectTitle: "Usable Shapeoko"
 tagline: "Collaboration Spaces and Help for FreeMakers"
