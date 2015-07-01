@@ -17,7 +17,7 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
 
 ### Selections / Solutions
 
-![Custom Limit Switch Bracket](cad/limit-switch-brackets.png)
+[![Custom Limit Switch Bracket](cad/limit-switch-brackets.png)](cad/limit-switch-brackets.stl)
 
 * [Custom limit switch bracket (SCAD)](cad/limit-switch-brackets.scad) [(STL)](cad/limit-switch-brackets.stl) - created by John and Zack
   * 15mm M3 machine screw is a slightly too small to mount through the rocker switch (you get about two threads' worth of bite in the bracket at best)
@@ -25,9 +25,9 @@ Homing switches should make it possible to find 0,0 coordinate in the X-Y plane 
     * using two M3 2.4mm thick nuts as spacers here works beautifully
   * no nuts required for fastening; M3 machine screw will cut its own threads through the bracket material
 
-![Cheap Rocker Switches](images/rocker-switches.jpg)
+[![Cheap Rocker Switches](images/rocker-switches.jpg)](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
-* [Cheap micro limit switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+* [Cheap rocker switches](http://www.amazon.com/gp/product/B00H8TIEHW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
   * M3 machine screws fit the mounting holes perfectly, but leftover 15mm screws from Shapeoko 2 build are slightly too short.
 
 ### Potential Solutions for Z Axis
