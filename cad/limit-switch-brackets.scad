@@ -68,7 +68,7 @@ module bottom_holes(){
 	}
 }
 
-module bottom(){
+module bracket(){
 	difference(){
 		union(){
 		   	base();
@@ -78,5 +78,10 @@ module bottom(){
 	}
 }
 
-bottom();
+union(){
+	bracket();
+	translate([0,-(base_y+10),0]) bracket();
+	translate([-(base_x+10),0,0]) bracket();
+	translate([-(base_x+10),-(base_y+10),0]) bracket();
+}
 
