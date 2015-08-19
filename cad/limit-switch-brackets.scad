@@ -24,10 +24,13 @@ hole_z=base_z + layer2_z;
 hole_y_off=1.4*mm + hole_r;
 
 hole1_x_off=11.6*mm + hole_r;
-hole1_y_off=base_y-hole_y_off;
-
 hole2_x_off=hole_y_off;
-hole2_y_off=hole_y_off;
+
+hole1_L_y_off=hole_y_off;
+hole2_L_y_off=base_y-hole_y_off;
+
+hole1_R_y_off=base_y-hole_y_off;
+hole2_R_y_off=hole_y_off;
 
 tab_x=2.8*mm;
 tab_y=12.5*mm;
@@ -57,10 +60,16 @@ module layer2(){
 
 module bottom_holes(){
 	union(){
-		translate([hole1_x_off, hole1_y_off, 0])
+		translate([hole1_x_off, hole1_L_y_off, 0])
 			cylinder(r=hole_r, h=hole_z);
-		translate([hole2_x_off, hole2_y_off, 0])
+		translate([hole2_x_off, hole2_L_y_off, 0])
 			cylinder(r=hole_r, h=hole_z);
+        
+		translate([hole1_x_off, hole1_R_y_off, 0])
+			cylinder(r=hole_r, h=hole_z);
+		translate([hole2_x_off, hole2_R_y_off, 0])
+			cylinder(r=hole_r, h=hole_z);
+        
 		translate([tab_x_off, tab_y_off, 0])
 			cylinder(r=hole_r,h=base_z);
 		translate([tab_x_off, tab_y_off+tab_y-hole_r, 0])
@@ -78,10 +87,13 @@ module bracket(){
 	}
 }
 
-union(){
+module axis_brackets(){
 	bracket();
 	translate([0,-(base_y+10),0]) bracket();
-	translate([-(base_x+10),0,0]) bracket();
-	translate([-(base_x+10),-(base_y+10),0]) bracket();
+}
+
+union(){
+    axis_brackets();
+//    translate([-(base_x+10),0,0]) axis_brackets();
 }
 
